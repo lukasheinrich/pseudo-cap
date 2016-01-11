@@ -8,6 +8,7 @@ from loginmgr import login_manager
 
 import models
 import base64
+import os
 
 app = Flask('pseudo-cap')
 app.debug = True
