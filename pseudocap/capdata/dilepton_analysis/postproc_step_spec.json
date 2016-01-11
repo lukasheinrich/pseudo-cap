@@ -1,0 +1,6 @@
+{
+  "definition": {
+    "node_spec": "dilepton_analysis/postproc"
+  },
+  "schema": "single_node_step"
+}

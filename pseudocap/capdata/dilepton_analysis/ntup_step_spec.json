@@ -1,0 +1,6 @@
+{
+  "definition": {
+    "node_spec": "dilepton_analysis/ntup"
+  },
+  "schema": "single_node_step"
+}
