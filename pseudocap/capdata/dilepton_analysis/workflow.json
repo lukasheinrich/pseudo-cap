@@ -1,6 +1,6 @@
 [
   {
-    "spec": "common/download",
+    "step_spec": "common/download",
     "name": "download",
     "dependencies": [],
     "attributes": {
@@ -17,7 +17,7 @@
     }
   },
   {
-    "spec": "dilepton_analysis/ntup",
+    "step_spec": "dilepton_analysis/ntup",
     "name": "ntupling",
     "attributes": {
       "minintuple": "/workdir/mini.root",
@@ -42,7 +42,7 @@
     }
   },
   {
-    "spec": "dilepton_analysis/hftree",
+    "step_spec": "dilepton_analysis/hftree",
     "name": "histfitprepare",
     "attributes": {
       "efficiency_file":"{efficiency_file}",
@@ -66,7 +66,7 @@
     }
   },
   {
-    "spec": "dilepton_analysis/fit",
+    "step_spec": "dilepton_analysis/fit",
     "name": "fit",
     "attributes": {
       "histfitroot":"/workdir/out.root",
@@ -87,7 +87,7 @@
     }
   },
   {
-    "spec": "dilepton_analysis/postproc",
+    "step_spec": "dilepton_analysis/postproc",
     "name": "postproc",
     "attributes": {
       "workdir":"/workdir/postproc",
