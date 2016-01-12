@@ -74,7 +74,6 @@ def make_session_permanent():
 @app.route('/checkcookie')
 @login.login_required
 def who():
-    
     print session
     print login.current_user
     return jsonify(user = 'bla')

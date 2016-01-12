@@ -8,6 +8,7 @@ setup(
         'Flask',
         'Flask-Login',
         'Flask-SQLAlchemy',
-        'Ipython'
+        'Ipython',
+ 	'psycopg2'
     ]
 )
