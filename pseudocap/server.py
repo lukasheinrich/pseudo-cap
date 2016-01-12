@@ -13,7 +13,7 @@ import os
 app = Flask('pseudo-cap')
 app.debug = True
 app.secret_key = '\xa85h\x98\x0e\xc34\xa4e\xca\xc6\xb5UX\xb6\xbc\x05\x10;\xa3\xc8\xf1\xa3\xea'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL','sqlite:///database.db')
 app.config['PERMANENT_SESSION_LIFETIME'] =  timedelta(seconds=15)
 app.register_blueprint(api,url_prefix = '/api')
 
