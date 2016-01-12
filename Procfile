@@ -1,1 +1,1 @@
-web: python pseudocap/server.py
+web: sh -c 'cd pseudocap && python server.py'
